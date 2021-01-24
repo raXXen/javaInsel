@@ -10,7 +10,7 @@ public class Programm {
 		System.out.println(ausgabe);
 		
 		if(age >= 18) {
-			System.out.println("du bist noch minderjährig");
+			System.out.println("du bist noch minderjaehrig");
 		}
 		
 		int number = 2;
@@ -19,19 +19,19 @@ public class Programm {
 			case 1: System.out.println("Der Wert ist 1"); break;
 			case 2: System.out.println("Der Wert ist 2"); break;
 			case 3: System.out.println("Der Wert ist 3"); break;
-			default: System.out.println("Der Wert stimmt nicht mit den eingetragenen Daten überein");
+			default: System.out.println("Der Wert stimmt nicht mit den eingetragenen Daten ueberein");
 		
 		}
 	
 		while(number <= 5) {
 		
-			System.out.println("Die While-Schleife addierte zu number einz hinzu, number beträgt nun: " + number);
+			System.out.println("Die While-Schleife addierte zu number einz hinzu, number betraegt nun: " + number);
 			number++;
 		}
 		
 		//die do-While-Schleife
 		do {
-			System.out.println("Die While-Schleife addierte zu number einz hinzu, number beträgt nun: " + number);
+			System.out.println("Die While-Schleife addierte zu number einz hinzu, number betraegt nun: " + number);
 			number++;
 	}
 	while(number <= 5);
@@ -52,7 +52,7 @@ public class Programm {
 	//Das aufrufen einer Methode in einer eigens definierten Klasse mit einem Objekt
 	//Name der Variable mit dem Objekt.Methode();
 	auto1.ausgabe(30);
-	auto1.setFarbe("Grün");
+	auto1.setFarbe("Gruen");
 	
 	//Ausgeben eines Attribut eines Objekts via. eines Setters
 	System.out.println(auto1.getFarbe());

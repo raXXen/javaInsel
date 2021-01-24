@@ -18,17 +18,17 @@ public class Auto {
 	
 	public void ausgabe(int geschwindigkeit) {
 		System.out.println();
-		System.out.println("Das Auto fährt mit " + geschwindigkeit + " km/h");
+		System.out.println("Das Auto faehrt mit " + geschwindigkeit + " km/h");
 	}
 	
-	//Die Methode ohne Parameter, die Methode existiert doppelt, sie wurde also überladen.
-	//Es gibt nun zwei Möglichkeiten die ausgabe-Methode auszuführen. Eine Methode kann 
-	//beliebig oft überladen werden, die Signaturen der einzelnen Möglichkeiten dürfen nur
-	//nicht gleich sein, bzw. sich ähneln. Ex. Zwei varianten, aber je mit zwei int wäre 
+	//Die Methode ohne Parameter, die Methode existiert doppelt, sie wurde also ueberladen.
+	//Es gibt nun zwei Moeglichkeiten die ausgabe-Methode auszufuehren. Eine Methode kann 
+	//beliebig oft ueberladen werden, die Signaturen der einzelnen Moeglichkeiten duerfen nur
+	//nicht gleich sein, bzw. sich aehneln. Ex. Zwei varianten, aber je mit zwei int waet commit "Alle alten Datein ausgetauscht, neue Datein hinzugefuegt" 
 	//falsch. 
 	public void ausgabe() {
 		System.out.println();
-		System.out.println("Das Auto fährt");
+		System.out.println("Das Auto faehrt");
 	}
 
 	//Getter und Setter der Attribute
