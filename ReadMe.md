@@ -1,6 +1,4 @@
--'-'-'-'-'-'-'-'-'-'-'-'-'-'-'-
-- My own work made in Java    -
-- Made with Maven and VIM     -
-- JDK version 15              -
--'-'-'-'-'-'-'-'-'-'-'-'-'-'-'- 
+ * My own work made in Java   
+ * Made with Maven, VIM, Eclipse     
+ * JDK version 15              
 
